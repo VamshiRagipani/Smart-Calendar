@@ -419,7 +419,7 @@ export default function Calendar() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="h-screen bg-gray-50 flex flex-col overflow-hidden">
       {/* Header */}
       <header className="bg-white border-b border-gray-200 px-6 py-4">
         <div className="flex items-center justify-between">
@@ -440,9 +440,9 @@ export default function Calendar() {
       </header>
 
       {/* Main Content */}
-      <div className="flex-1 flex">
+      <div className="flex-1 flex overflow-hidden">
         {/* Left Panel - Calendar */}
-        <div className="w-1/2 bg-white border-r border-gray-200 p-8 flex flex-col">
+        <div className="w-1/2 bg-white border-r border-gray-200  p-8 flex flex-col ">
           {/* Calendar Widget */}
           <div className="bg-white border-2 border-purple-300 rounded-lg p-6 mb-8 shadow-sm">
             {/* Header with navigation */}
