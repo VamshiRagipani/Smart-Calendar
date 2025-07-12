@@ -440,7 +440,7 @@ export default function Calendar() {
       </header>
 
       {/* Main Content */}
-      <div className="flex-1 flex overflow-hidden">
+      <div className="flex-1 flex">
         {/* Left Panel - Calendar */}
         <div className="w-1/2 bg-white border-r border-gray-200  p-8 flex flex-col ">
           {/* Calendar Widget */}
